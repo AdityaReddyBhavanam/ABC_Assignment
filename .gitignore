@@ -1,0 +1,24 @@
+# NPM logs
+npm-debug.log
+
+# Node Modules
+**/node_modules/*
+
+# Tests Screenshots
+**/screenshots/*
+
+# Tests output
+**/tests_output/*
+
+# Reports
+**/reports/*
+
+# Webstrom folder
+*.idea/
+
+# Log file
+debug.log
+*.log
+*.log.*
+
+nbproject/*
