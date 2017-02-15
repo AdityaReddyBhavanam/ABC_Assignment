@@ -37,10 +37,10 @@ Feature: ABCRadio
     Then  Verify that the redirection happens to repective listening page https://radio.abc.net.au/programitem/pg1aGbWlx6?play=true
     And   Verify that the audio player loads successfully when the url is loaded
 
-#  # Covers section (b) -> 5
-#  Scenario: Verify that when you click on ‘Download audio’ you are directed to the mp3 file
-#    Given User navigates to the ABC Radio url http://www.abc.net.au/radionational/programs/bigideas/a-fortunate-universe/8076406
-#    When  User clicks on Download Audio
-#    Then  Verify that the redirection happens to a mp3 file page
+  # Covers section (b) -> 5
+  Scenario: Verify that when you click on ‘Download audio’ you are directed to the mp3 file
+    Given User navigates to the ABC Radio url http://www.abc.net.au/radionational/programs/bigideas/a-fortunate-universe/8076406
+    When  User clicks on Download Audio
+    Then  Verify that the redirection happens to a mp3 file page
 
 
