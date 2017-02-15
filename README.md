@@ -38,31 +38,3 @@ HTML report generation is enabled by default. It's default location is /reports/
 
 # Framework Structure:
  We are using BDD Framework with Page object model approach where it will be easy to distinguish all the files used in a structured way,
-
-```
-├── Tests
-│   ├── e2e
-│   │   ├── common
-│   │   │   ├── settings.js
-│   │   │   └── ...
-│   │   ├── featureFiles
-│   │   │   ├── ABC_News.feature
-│   │   │   ├── ABC_Radio.feature
-│   │   │   ├── .....
-│   │   │   └── .....
-│   │   │   └── step_definitions
-│   │   │   │   ├── ABC_News_steps.js
-│   │   │   │   ├── ABC_Radio_steps.js
-│   │   │   │   ├── .....
-│   │   │   │   └── .....s
-│   │   ├── pages
-│   │   │   ├── ABC_News_PageElements.js
-│   │   │   ├── ABC_Radio_PageElements.js
-│   │   │   └── ...
-│   │   └── support
-│   │   │   ├── env.js
-│   │   │   └── ...
-├── package.json
-├── cucumber.js
-├── nightwatch.conf.js
-├── README.md
