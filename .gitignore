@@ -22,3 +22,11 @@ debug.log
 *.log.*
 
 nbproject/*
+
+.settings/
+
+.DS_Store
+
+.project
+
+.gitignore
