@@ -20,6 +20,7 @@
     "nightwatch-cucumber": "4.2.0"
   },  
   "repository": {
-    "type": "git"
+    "type": "git”,
+    "url": "https://github.com/AdityaReddyBhavanam/ABC_Assignment”
   }
 }
